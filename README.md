@@ -15,7 +15,7 @@ eventually, complete the game
   - Fiona Boulman, fionaboulman, fionaboulman
   - Antoine Majoie, antoine-majoie, antoinemajoie
   - Antonina Mijatovic, antonina-mijatovic, antonina_mijatovic
-  - Rojin Radmehr ,rojin-radmehr, rojinradmehr
+  - Rojin Radmehr , rojin-radmehr, rojinradmehr
 
 ## Teams
 
