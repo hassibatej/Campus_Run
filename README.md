@@ -19,7 +19,7 @@ eventually, complete the game
 
 ## Teams
 
-### Graphics
+### UI/Graphics
     
   - Fiona Boulman 
   - Antonina Mijatovic
