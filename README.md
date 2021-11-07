@@ -1,7 +1,6 @@
 # Campus_Run
 CSE201 C++ group project
 
-<<<<<<< HEAD
 ## Table of Contents
 
 1. [Project Description](#project)
