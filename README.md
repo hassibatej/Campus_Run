@@ -23,7 +23,7 @@ eventually, complete the game.
 
   - Eve Margolis, [evemargolis](https://github.com/evemargolis), evemargolis2, project leader
   - Hassiba Tej , [hassibatej](https://github.com/hassibatej), hassibatej23, git assistant
-  - Marie-Alexis Mezin, [marie-alexis](https://github.com/marie-alexis), mariealexis6, git assistant
+  - Marie-Alexis Mezin, [marie-alexis](https://github.com/marie-alexis), mariealexis6
   - Antoine Babu, [Ant-Babu](https://github.com/Ant-Babu), antoinebabu, trello assistant
   - Fiona Boulman, [fionaboulman](https://github.com/fionaboulman), fionaboulman
   - Antoine Majoie, [antoine-majoie](https://github.com/antoine-majoie), antoinemajoie
