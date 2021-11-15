@@ -11,7 +11,7 @@ Marie:
 
 
 Fiona:
-
+This week, I spent a lot of time figuring out how to run the game in Visual studio (VS is not compatible with IOS so i had many issues). Regarding the code I pushed this week, I took care of the sprite attribute of the player and worked with Antonina on rendering it on screen.
 
 
 
