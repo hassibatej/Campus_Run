@@ -6,7 +6,7 @@ After discussions with the each member of team, we've separated ourselves in two
 ### UI design 
 
 Marie:
-
+This week, I worked on developing the coin class, their appearance, and their properties. Next week I plan on further developing this class, and working on other aspects of the game.
 
 
 
@@ -33,7 +33,7 @@ This week I spent quite a bit of time to run the game (I'm on iOS and it was com
 
 Eve Margolis:
 
-
+This week I did additional research on how to implement coins (and possible future items into our game). I started trying to find and code how to make a coin counter appear, visually, as well as take into account each coin collected. Next week I plan on finalizing this counter and adding more features.
 
 
 
