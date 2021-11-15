@@ -13,5 +13,9 @@ int main()
 		game.render();
 	}
 
+<<<<<<< HEAD
+	//End of application
+=======
+>>>>>>> main
 	return 0;
 }
