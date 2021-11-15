@@ -42,7 +42,8 @@ Rojin Radmehr:
 
 
 
-Hassiba Tej:
+Hassiba Tej: This week, I continued researches and looked up other documentation. I implemented the part of the code that takes care of the mouvement of the cat and the way it falls when we press multiple times on the space bar, taking into account the gravity and physics in general.
+I also took care of explaining how to create branches, pull request, etc.
 
   
 ### Whole team
