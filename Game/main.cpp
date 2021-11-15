@@ -13,6 +13,5 @@ int main()
 		game.render();
 	}
 
-	//End of application
 	return 0;
 }
