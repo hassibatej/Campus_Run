@@ -39,7 +39,7 @@ This week I did additional research on how to implement coins (and possible futu
 
 Rojin Radmehr:
 
-Made the class for obstacles and different types of platforms and the different interactions with them and their characteristics.
+This week I made the class for obstacles and different types of platforms and the different interactions with them and their characteristics.
 Next week i will complete this since i needed collision detection for some parts.
 
 
