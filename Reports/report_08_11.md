@@ -39,7 +39,8 @@ Eve Margolis:
 
 Rojin Radmehr:
 
-
+Made the class for obstacles and different types of platforms and the different interactions with them and their characteristics.
+Next week i will complete this since i needed collision detection for some parts.
 
 
 Hassiba Tej:
