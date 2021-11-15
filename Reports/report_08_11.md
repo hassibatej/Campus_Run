@@ -21,7 +21,7 @@ Antonina:
 
 ### Game engine development
 Antoine Babu:
-
+This week, I built a base for the game, making SFML run in Visual Studio. I helped around with physics, animations etc... As for commits, I implemented a hitbox class, to implement collision. Collision is not complete (we need the map to be able to iterate over the different entities). We will be able to reuse hitboxes in the future, for instance for combat. Next step on my hand is to merge everyone's code smoothly, as we all worked on our own this week, some of us without testing because of incompatibility issues.
 
 
 
