@@ -26,7 +26,7 @@ Antoine Babu:
 
 
 Antoine Majoie:
-
+This week I spent quite a bit of time to run the game (I'm on iOS and it was complicated to run SFML on Visual Studio, I ended up using my older laptop that runs on Windows). I was able to grasp a better understanding on the camera movement through research, but I have not implemented it yet. On the other hand, I added deceleration to the physics of the player, to regulate its movement.
 
 
 
