@@ -6,7 +6,7 @@ After discussions with the each member of team, we've separated ourselves in two
 ### UI design 
 
 Marie:
-
+This week, I worked on developing the coin class, their appearance, and their properties. Next week I plan on further developing this class, and working on other aspects of the game.
 
 
 
