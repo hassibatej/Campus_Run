@@ -47,17 +47,8 @@ Hassiba Tej: This week, I continued researches and looked up other documentation
 I also took care of explaining how to create branches, pull request, etc.
 
   
-### Whole team
-- Whole team did research on their side
-- Had a meeting to gather our ideas and what we found
-- Looked at some libraries & ressources (SFML, Unity...)
-- Set the deadline of what we wanted done for next week => working on the headers, and the code for moving a little cube on everyone's computer at least (depending on the libraries we are allowed to use
-- Thoughts on the graphics we wanted to implement
-- Agreed on a general meeting time for us to discuss each week
-- Research on compilers 
 
 ### Done this week :
-  
-
-
+This week, as a team, we ensured we had a running game engine which allowed us to move a pixelated cat forwards and backwards and which had the ability to jump. In addition, each member of our team 
+began working on different and more specific aspect of the game. These included the coin class and coin counter, the basic menu user interfrace, the camera, rendering the player, hitbox and collisions, physics (making sure gravity works) and the platform and object classes.
 
