@@ -1,6 +1,10 @@
 
 #include "Player.h"
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> main
 void Player::initVariables()
 {
 	this->animState = PLAYER_ANIMATION_STATES::IDLE;
@@ -23,6 +27,7 @@ void Player::initSprite()
 	this->sprite.setScale(3.f, 3.f);
 }
 
+<<<<<<< HEAD
 void Player::initAnimations()
 {
 	this->animationTimer.restart();
@@ -38,21 +43,27 @@ void Player::initPhysics()
 	this->gravity = 4.f;
 	this->velocityMaxY = 15.f;
 }
+=======
+>>>>>>> main
 
 Player::Player()
 {
 	this->initVariables();
 	this->initTexture();
 	this->initSprite();
+<<<<<<< HEAD
 	this->initAnimations();
 	this->initPhysics();
 }
+=======
+>>>>>>> main
 
 Player::~Player()
 {
 
 }
 
+<<<<<<< HEAD
 
 const bool& Player::getAnimSwitch()
 {
@@ -69,6 +80,8 @@ const sf::Vector2f Player::getPosition() const
 	return this->sprite.getPosition();
 }
 
+=======
+>>>>>>> main
 const sf::FloatRect Player::getGlobalBounds() const
 {
 	return this->sprite.getGlobalBounds();
@@ -79,6 +92,7 @@ void Player::setPosition(const float x, const float y)
 	this->sprite.setPosition(x, y);
 }
 
+<<<<<<< HEAD
 void Player::resetVelocityY()
 {
 	this->velocity.y = 0.f;
@@ -121,6 +135,8 @@ void Player::updatePhysics()
 		this->velocity.y = this->velocityMaxY * ((this->velocity.y < 0.f) ? -1.f : 1.f);
 	}
 }
+=======
+>>>>>>> main
 
 void Player::updateMovement()
 {
@@ -148,6 +164,7 @@ void Player::updateMovement()
 	}
 }
 
+<<<<<<< HEAD
 void Player::updateAnimations()
 {
 	if (this->animState == PLAYER_ANIMATION_STATES::IDLE)
@@ -217,12 +234,17 @@ void Player::updateAnimations()
 	else
 		this->animationTimer.restart();
 }
+=======
+>>>>>>> main
 
 void Player::update()
 {	
 	this->updateMovement();
+<<<<<<< HEAD
 	this->updateAnimations();
 	this->updatePhysics();
+=======
+>>>>>>> main
 }
 
 void Player::render(sf::RenderTarget & target)
@@ -235,4 +257,8 @@ void Player::render(sf::RenderTarget & target)
 	circ.setPosition(this->sprite.getPosition());
 
 	target.draw(circ);
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 }

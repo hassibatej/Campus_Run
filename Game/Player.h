@@ -9,6 +9,7 @@ private:
 	sf::Texture textureSheet;
 	sf::Clock animationTimer;
 
+<<<<<<< HEAD
 	//Animation
 	short animState;
 	sf::IntRect currentFrame;
@@ -22,13 +23,25 @@ private:
 	float gravity;
 	float velocityMaxY;
 
+=======
+>>>>>>> main
 	//Core
 
 	void initVariables();
 	void initTexture();
 	void initSprite();
+<<<<<<< HEAD
 	void initAnimations();
 	void initPhysics();
+=======
+
+	//bool isCollidingWithCoin(Coin* coin) {
+	//	if (this->getGlobalBounds().intersects(coin->getGlobalBounds())) {
+	//		return true;
+	//	}
+	//	return false;
+	//}
+>>>>>>> main
 
 
 public:
@@ -36,12 +49,16 @@ public:
 	virtual ~Player();
 
 	//Accessors
+<<<<<<< HEAD
 	const bool& getAnimSwitch();
+=======
+>>>>>>> main
 	const sf::Vector2f getPosition() const;
 	const sf::FloatRect getGlobalBounds() const;
 
 	//Modifiers
 	void setPosition(const float x, const float y);
+<<<<<<< HEAD
 	void resetVelocityY();
 	void resetVelocityX();
 
@@ -51,6 +68,11 @@ public:
 	void updatePhysics();
 	void updateMovement();
 	void updateAnimations();
+=======
+
+	//Functions	
+	void updateMovement();
+>>>>>>> main
 	void update();
 	void render(sf::RenderTarget& target);
 };
