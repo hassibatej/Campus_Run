@@ -46,7 +46,7 @@ Next week i will complete this since i needed collision detection for some parts
 Hassiba Tej: This week, I continued researches and looked up other documentation. I implemented the part of the code that takes care of the mouvement of the cat and the way it falls when we press multiple times on the space bar, taking into account the gravity and physics in general.
 I also took care of explaining how to create branches, pull request, etc.
 
-<<<<<<< HEAD
+
 
 ### Whole team
 - Whole team did research on their side
@@ -65,4 +65,4 @@ I also took care of explaining how to create branches, pull request, etc.
 This week, as a team, we ensured we had a running game engine which allowed us to move a pixelated cat forwards and backwards and which had the ability to jump. In addition, each member of our team 
 began working on different and more specific aspect of the game. These included the coin class and coin counter, the basic menu user interfrace, the camera, rendering the player, hitbox and collisions, physics (making sure gravity works) and the platform and object classes.
 
->>>>>>> main
+
