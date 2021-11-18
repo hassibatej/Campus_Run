@@ -3,7 +3,7 @@ After discussions with the each member of team, we've separated ourselves in two
 
 # Teams:
 
-### UI design 
+### UI design
 
 Marie:
 This week, I worked on developing the coin class, their appearance, and their properties. Next week I plan on further developing this class, and working on other aspects of the game.
@@ -15,7 +15,7 @@ This week, I spent a lot of time figuring out how to run the game in Visual stud
 
 
 
-Antonina:
+Antonina: This week, I spent most of my time figuring out how to run the game on Mac by using a Windows virtual machine (Virtual Box to be specific) to run Visual Studio Code. I worked with Fiona on rendering the player and I added animations to the player class. We will be able to reuse this function to render objects and enemies in the future.
 
 
 
@@ -46,9 +46,23 @@ Next week i will complete this since i needed collision detection for some parts
 Hassiba Tej: This week, I continued researches and looked up other documentation. I implemented the part of the code that takes care of the mouvement of the cat and the way it falls when we press multiple times on the space bar, taking into account the gravity and physics in general.
 I also took care of explaining how to create branches, pull request, etc.
 
+<<<<<<< HEAD
+
+### Whole team
+- Whole team did research on their side
+- Had a meeting to gather our ideas and what we found
+- Looked at some libraries & ressources (SFML, Unity...)
+- Set the deadline of what we wanted done for next week => working on the headers, and the code for moving a little cube on everyone's computer at least (depending on the libraries we are allowed to use
+- Thoughts on the graphics we wanted to implement
+- Agreed on a general meeting time for us to discuss each week
+- Research on compilers
+
+### Done this week :
+=======
   
 
 ### Done this week :
 This week, as a team, we ensured we had a running game engine which allowed us to move a pixelated cat forwards and backwards and which had the ability to jump. In addition, each member of our team 
 began working on different and more specific aspect of the game. These included the coin class and coin counter, the basic menu user interfrace, the camera, rendering the player, hitbox and collisions, physics (making sure gravity works) and the platform and object classes.
 
+>>>>>>> main

@@ -1,5 +1,5 @@
 
-#include "Game.h"
+#include "game.h"
 
 void Game::initWindow()
 {
@@ -28,15 +28,9 @@ void Game::updatePlayer()
 	this->player->update();
 }
 
-<<<<<<< HEAD
-void Game::update()
-{
-	//Polling window events
-=======
 
 void Game::update()
 {
->>>>>>> main
 	while (this->window.pollEvent(this->ev))
 	{
 		if (this->ev.type == sf::Event::Closed)
@@ -67,18 +61,10 @@ void Game::renderPlayer()
 	this->player->render(this->window);
 
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 void Game::render()
 {
 	this->window.clear();
 
-<<<<<<< HEAD
-	//Render game
-=======
->>>>>>> main
 	this->renderPlayer();
 
 	this->window.display();

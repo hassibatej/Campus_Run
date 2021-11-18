@@ -1,5 +1,5 @@
 
-#include "Game.h"
+#include "game.h"
 
 int main()
 {
@@ -13,9 +13,5 @@ int main()
 		game.render();
 	}
 
-<<<<<<< HEAD
-	//End of application
-=======
->>>>>>> main
 	return 0;
 }
