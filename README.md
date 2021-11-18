@@ -10,7 +10,7 @@ CSE201 C++ group project
 
 <a name="project"></a>
 ## 1. Project Description 
-Campus Run intends to implement a 'Mario-like' game, using graphics inspired
+Campus Run intends to implement a 'BananaKong-like' game, using graphics inspired
 =======
 Campus Run intends to implement a 'BananaKong-like' game, using graphics inspired
 from the campus most famous spots  (namely Amphi Cauchy, Bâtiment 103, Bôbar,...)

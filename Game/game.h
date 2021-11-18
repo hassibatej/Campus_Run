@@ -22,7 +22,6 @@ public:
 
 	//Functions
 	void updatePlayer();
-	void updateCollision();
 	void update();
 	void renderPlayer();
 	void render();
