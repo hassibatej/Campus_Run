@@ -1,5 +1,5 @@
 
-#include "Game.h"
+#include "game.h"
 
 void Game::initWindow()
 {
@@ -61,7 +61,6 @@ void Game::renderPlayer()
 	this->player->render(this->window);
 
 }
-
 void Game::render()
 {
 	this->window.clear();
