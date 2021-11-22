@@ -28,7 +28,8 @@ This week, I solved slight issues I had with the coin counter we wished to imple
 
 Rojin Radmehr:
 
-
+This week, since we had problems with mac computers, i spend some time searching for a solution and then spend the rest of the week trying to understand gadot.
+Next week I will help implement the first level of the game.
 
 Hassiba Tej:
 
