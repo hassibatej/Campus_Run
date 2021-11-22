@@ -6,7 +6,7 @@ After discussions with the each member of team, we've separated ourselves in two
 ### UI design
 
 Marie:
-This week, I worked on developing the coin class, their appearance, and their properties. Next week I plan on further developing this class, and working on other aspects of the game.
+This week, us macOS users spent an enormous alot of time trying to find a way to get VS and SFML to work on our computers. This is currently a work in progress. Alongside this, I worked on developing the coin class, their appearance, and their properties. Next week I plan on further developing this class, and working on other aspects of the game.
 
 
 
@@ -57,9 +57,6 @@ I also took care of explaining how to create branches, pull request, etc.
 - Agreed on a general meeting time for us to discuss each week
 - Research on compilers
 
-### Done this week :
-=======
-  
 
 ### Done this week :
 This week, as a team, we ensured we had a running game engine which allowed us to move a pixelated cat forwards and backwards and which had the ability to jump. In addition, each member of our team 
