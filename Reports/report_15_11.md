@@ -4,26 +4,28 @@
 #Teams:
 ###UI design
 
+
 Marie: This week, we continued to try to get a software to work with our computers to allow us to visualise the game. We tried cmake and Godot. We decided that Godot was incompatible with our objectives. I also started furthering the work done last week for the camera (particularly making sure that it followed the player) with Antoine. Next week, I hope to have completed the camera and the problem with the compatibility of iOS with the programs we intend on using to develop our game.
 
-Fiona: 
+
+Fiona:
 
 
-Antonina: 
+Antonina: This week, I worked on researching Godot for mac, such as downloading the necessary libraries and folders to be able to code in cpp using Godot. Unfortunately, we found that we would be unable to use Godot for the project as it wasn't a feasible option for everyone, so I switched my focus to downloading a virtual machine and checking that I would be able to run Windows on my computer. It isn't the fastest option, but it will hopefully allow me to run the code on my system and begin coding. I also did more research on switching between screens/maps for the game itself.
 
 
 ### Game engine development
 
-Antoine Babu: 
+Antoine Babu:
 
 
 
-Antoine Majoie: 
+Antoine Majoie:
 
 
 
 Eve Margolis:
-
+This week, I solved slight issues I had with the coin counter we wished to implement.I also started working on the pause menu, and created a few new classes about the game state. I will aim to finish this next week and further develop the project implementation.
 
 
 Rojin Radmehr:
@@ -35,7 +37,6 @@ Hassiba Tej:
 
 Whole team :
 
- 
+
 
 Done this week :
-
