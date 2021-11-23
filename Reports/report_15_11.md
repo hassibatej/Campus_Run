@@ -30,7 +30,7 @@ Rojin Radmehr:
 
 
 
-Hassiba Tej:
+Hassiba Tej: This week, I started to think on how to implement the transitions between the sprites during the game, how to update the changes. Also I've been working on the global game, how it should be implemented and the global game experience.
 
 
 Whole team :
