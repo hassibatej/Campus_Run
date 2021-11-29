@@ -19,7 +19,6 @@ Antonina: This week, I worked on researching Godot for mac, such as downloading 
 Antoine Babu: This week I worked on implementing the missing features to catch up with the pace we set for ourselves. This notably includes map handling, which will allow us to start creating levels. I've started to look into menus and GUI as we have several features which require to be implemented in a similar fashion.
 
 
-
 Antoine Majoie:
 
 
