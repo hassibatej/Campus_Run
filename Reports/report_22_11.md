@@ -10,7 +10,8 @@ Marie:
 
 
 
-Fiona:
+Fiona: This week I got a basic SFML cpp code running on my mac using Qt and learned how to use the CmakeFile.txt. I wrote a tutorial on how I did it so that other mac users can do it.
+
 
 
 Antonina: I did some more research on object collisions and scene switching, but I did not begin to code it. I tried to make Qt Creator work with cmake and SFML following Fiona's instructions, but I was unable to do so. 
