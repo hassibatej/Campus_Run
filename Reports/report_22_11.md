@@ -33,7 +33,7 @@ Eve Margolis:
 
 Rojin Radmehr:
 
-
+I worked on the dialogue boxes and interaction with player. Next week I will work on map transitions and obstacles that deal damage.
 
 Hassiba Tej: I worked on implementing the health and damage bars classes in order to make the game more interractive and looked up some designs that can be added. Furthermore, as I'm working on the dungeons game part, I continued on the work I had to do.
 
