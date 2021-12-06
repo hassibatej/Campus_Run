@@ -13,7 +13,8 @@ Marie:This week, I coded the Collision header and class. These will be utilised 
 
 Fiona: This week, I coded a map for the 'run' part of the game by writing the Tile and Tilemap classes. They work and we can now have a ground and platforms. I also started working on obstacles. The structure is there but the code doesn't work yet. I will keep working on this issue and solve it before the next TD session
 
-Antonina:
+Antonina: This week, I coded the classes Scene and SceneState, which will allow us to switch between levels and menus, but I haven't committed them to the main code yet as I had some issues opening it on my computer. Next week, I will begin working introducing a new feature to the tiles which "teleports" the player when they cross it, allowing us to use player position/action to switch between levels. 
+
 
 
 
@@ -36,7 +37,7 @@ Rojin Radmehr:
 
 
 
-Hassiba Tej: 
+Hassiba Tej:
 
 
 
