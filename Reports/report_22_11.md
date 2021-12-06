@@ -1,4 +1,4 @@
-#Report for the week of November 15th 2021
+#Report for the week of November 22th 2021
 
 
 #Teams:
@@ -35,7 +35,7 @@ Rojin Radmehr:
 
 
 
-Hassiba Tej: 
+Hassiba Tej: I worked on implementing the health and damage bars classes in order to make the game more interractive and looked up some designs that can be added. Furthermore, as I'm working on the dungeons game part, I continued on the work I had to do.
 
 
 
