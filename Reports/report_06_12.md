@@ -3,15 +3,43 @@
 
 # Teams:
 
-### UI design 
+###Run team
 
 
 
 
-### Game engine development
+Marie:
 
 
-  
+Fiona: 
+
+
+Antonina: 
+
+
+
+
+
+### Dungeon team
+
+Antoine Babu:
+
+
+
+Antoine Majoie:
+
+
+
+Eve Margolis:
+
+
+
+Rojin Radmehr:
+
+
+
+Hassiba Tej:
+
 
 ### Done this week :
 - Set up the Trello and Git
