@@ -18,7 +18,7 @@ void Player::initTexture()
 void Player::initSprite()
 {
 	this->sprite.setTexture(this->textureSheet);
-    this->currentFrame = sf::IntRect(0, 0, 10, 10); //SHOULD BE 40 50
+    this->currentFrame = sf::IntRect(30, 0, 10, 10); //SHOULD BE 40 50
 
 	this->sprite.setTextureRect(this->currentFrame);
 	this->sprite.setScale(3.f, 3.f);
@@ -34,8 +34,8 @@ void Player::initPhysics()
 {
 	this->velocityMax = 20.f;
 	this->velocityMin = 1.f;
-	this->acceleration = 3.0f;
-	this->drag = 0.85f;
+    this->acceleration = 3.0f;
+    this->drag = 0.85f;
 	this->gravity = 4.f;
 	this->velocityMaxY = 15.f;
 }
@@ -93,8 +93,10 @@ void Player::resetAnimationTimer()
 void Player::move(const float dir_x, const float dir_y)
 {
 	//Acceleration
-	this->velocity.x += dir_x * this->acceleration;
+    this->velocity.x += dir_x * this->acceleration;
 	this->velocity.y += 5*dir_y * this->acceleration;
+
+
 
 	//Limit velocity
     if (std::abs(this->velocity.x) > this->velocityMax)
@@ -128,9 +130,10 @@ void Player::updatePhysics()
 	this->sprite.move(this->velocity);
 }
 
+
 void Player::updateMovement()
 {
-	this->animState = PLAYER_ANIMATION_STATES::IDLE;
+    this->animState = PLAYER_ANIMATION_STATES::IDLE;
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) 
 	{
@@ -144,9 +147,9 @@ void Player::updateMovement()
 	}
 		
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Space)) 
-	{
-		this->move(0.f, -1.f);
-		this->animState = PLAYER_ANIMATION_STATES::JUMPING;
+    {
+        this->move(0.f, -1.f);
+        this->animState = PLAYER_ANIMATION_STATES::JUMPING;
 	}
 	else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)) 
 	{

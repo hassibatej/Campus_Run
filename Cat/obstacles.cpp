@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "obstacles.h"
 
-Obstacles::Obstacles() // initialise a obstacles
+Obstacles::Obstacles() // initialise obstacles
 {
 }
 
@@ -9,7 +9,7 @@ Obstacles::~Obstacles()
 {
 }
 
-Obstacles::Obstacles(std::string textureName, float x, float y, bool deadly, bool slows) {
+Obstacles::Obstacles(std::string textureName, float x, float y, bool deadly, bool slows) { //sprite, positions and features
     if (!setUpSprite(textureName)) {
     return;
     }
