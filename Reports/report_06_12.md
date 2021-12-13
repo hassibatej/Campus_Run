@@ -8,7 +8,7 @@
 
 
 
-Marie:
+Marie: This week I almost completed the Collision header and class. Some tests need to be completed but the player should now be able to stand on platforms and interact with objects. I also recoded for constant motion in x-direction. This week i hope to work on developing further the player-object interactions.
 
 
 Fiona: This week, I worked on optimizing the map I have created last week for the 'Run' part of our project. I also coded a class of obstacles which will be either deadly or slow the player down when the player touches them. They appear on the screen an any position we want to give them. 
