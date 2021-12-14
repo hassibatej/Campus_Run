@@ -1,0 +1,242 @@
+{
+	"BUILD_DIR" : "/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug/Cat_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat",
+	"CMAKE_EXECUTABLE" : "/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/CMakeLists.txt",
+		"/Users/marie-alexis/Qt/Qt Creator.app/Contents/Resources/package-manager/auto-setup.cmake",
+		"/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug/CMakeFiles/3.21.1/CMakeSystem.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake",
+		"/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeGenericSystem.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Darwin.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/UnixPaths.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeCXXInformation.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Compiler/Clang.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Compiler/GNU.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake",
+		"/usr/local/lib/cmake/SFML/SFMLConfig.cmake",
+		"/usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake",
+		"/usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake",
+		"/usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/Collision.h",
+			"MU",
+			"EWIEGA46WW/moc_Collision.cpp",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/Player.h",
+			"MU",
+			"EWIEGA46WW/moc_Player.cpp",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/Tile.h",
+			"MU",
+			"EWIEGA46WW/moc_Tile.cpp",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/TileMap.h",
+			"MU",
+			"EWIEGA46WW/moc_TileMap.cpp",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/game.h",
+			"MU",
+			"EWIEGA46WW/moc_game.cpp",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/item.h",
+			"MU",
+			"EWIEGA46WW/moc_item.cpp",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/obstacles.h",
+			"MU",
+			"EWIEGA46WW/moc_obstacles.cpp",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/stdfx.h",
+			"MU",
+			"EWIEGA46WW/moc_stdfx.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug/Cat_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug/Cat_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug",
+		"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat",
+		"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/SFML_INCLUDE_DIR",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/QtWidgets.framework",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/QtGui.framework",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/QtCore.framework",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers",
+		"/Users/marie-alexis/Qt/5.12.5/clang_64/mkspecs/macx-clang",
+		"/usr/local/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include",
+		"/Library/Developer/CommandLineTools/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/clang++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Users/marie-alexis/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug/Cat_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug/CMakeFiles/Cat_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/marie-alexis/Qt/5.12.5/clang_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/marie-alexis/Qt/5.12.5/clang_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/Users/marie-alexis/Desktop/CSE201/Campus_Run/build-Cat-Desktop_Qt_5_12_5_clang_64bit-Debug/CMakeFiles/Cat_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/Collision.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/Game.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/Player.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/Tile.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/TileMap.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/item.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/obstacles.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/marie-alexis/Desktop/CSE201/Campus_Run/Cat/stdfx.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
