@@ -1,7 +1,10 @@
+
 #Report for the week of November 22th 2021
 
 
+
 #Teams:
+
 ###UI design
 
 
@@ -30,8 +33,13 @@ Antoine Majoie:
 Eve Margolis:
 
 
+This week I primarily focused on merging code blocks with Antoine B. I also further worked on the coins and coin counter in the context of our new coding framework.I also worked on the basics of the inventory and items the character would interact with in the first level.Next week I will finalize these aspects.
+
+
+
 
 Rojin Radmehr:
+
 
 
 

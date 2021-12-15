@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "TileMap.h"
 #include "Tile.h"
+#include "floor.h"
+#include "obstacles.h"
 
 TileMap::TileMap() // initialise the map
 {
@@ -28,47 +30,45 @@ void TileMap::setUpInitialState() {
     setUpTiles();
 }
 
-void TileMap::setUpObstaclesPositions(){
-    obstacles.clear();
 
-    std::vector<Obstacles*> bananas;
-
-    std::vector<int> bananaspositions = {2,3,4,5,6,15,26};
-    for ( int i = 0; i < gridLength; i++){
-        for(auto & j : bananaspositions)
-            if (i == j){
-                bananas.push_back(new Obstacles("./Textures/banana.png",j*100,200, true, false));
-            }
-        }
-    obstacles.push_back(bananas);
-}
 void TileMap::setUpTiles(){
     tiles.clear();
-    // creating a matrix of tiles
+    floor.clear();
+    bananas.clear();
 
-    std::vector<Tile*> firstRow; // here we construct the floor
+    std::map<int, int> bananafloorpositions = {{1,7},{2,10}, {3,16}, {4,20}, {5, 27}, {6,33}, {7,39}};//23,24,27,28,34,35,36,39,40,41,45,46,47,48};
+    std::map<int, int> bananaplatformpositions = {{1,5},{2,16}, {3,29}, {4,30}, {5,42}, {6,23}};//23,24,27,28,34,35,36,39,40,41,45,46,47,48};
 
-    for (int i = 0; i < gridLength; i++ ){
-        firstRow.push_back(new Tile("./Textures/floor.png", i*100, 380, false, false));
+    for ( int i = 1; i <8 ; i++){
+                bananas.push_back(new Obstacles("./Textures/banana.png",bananafloorpositions[i]*100,280, true, false));
+            }
+    for ( int i = 1; i <7 ; i++){
+                bananas.push_back(new Obstacles("./Textures/banana.png",bananaplatformpositions[i]*100,360, true, false));
+            }
+
+    // here we construct the floor
+
+    floor.push_back(new Floor("./Textures/floor.png",0,380));
+
+    /*std::vector<Tile*> vector1;
+    for ( int i = 0; i <gridLength ; i++){
+        vector1.push_back(new Tile("./Textures/floor.png", i * 100, 380, false, false));
     }
 
-    tiles.push_back(firstRow);
+    tiles.push_back(vector1);*/
 
     std::vector<Tile*> secondRow;
 
 
-    std::vector<int> platforms = {3,7,12,13,14,15,20,23,24,27,28,34,35,36,39,40,41,45,46,47,48};
+    std::map<int, int> platforms = {{1,7},{2,8},{3,10}, {4,11}, {5,16}, {6,20}, {7,21}, {9,22}, {10, 25}, {11, 27}, {12,33}, {13,34}, {14,37}, {15,39}};//23,24,27,28,34,35,36,39,40,41,45,46,47,48};
 
-    for ( int i = 0; i < gridLength; i++){
-        for(auto & j : platforms)
-            if (i == j){
-                secondRow.push_back(new Tile("./Textures/floor.png",j*100,300, false, false));
+    for ( int i = 1; i <16 ; i++){
+                secondRow.push_back(new Tile("./Textures/floor.png",platforms[i]*100,300, false, false));
             }
-        }
-
-
 
     tiles.push_back(secondRow);
 
 }
+
+
 

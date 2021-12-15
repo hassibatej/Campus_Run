@@ -4,6 +4,8 @@
 #include"Tile.h"
 #include "stdfx.h"
 #include <vector>
+#include <list>
+#include "floor.h"
 
 class TileMap
 {
@@ -17,8 +19,9 @@ private:
 
 public:
     void setUpInitialState();
-    std::vector< std::vector<Tile*> > tiles; // vector of vectors of Tilepointers
-    std::vector< std::vector<Obstacles*> > obstacles;
+    std::vector < std::vector<Tile*> > tiles; // vector of vectors of Tilepointers
+    std::vector < Floor*>  floor;
+    std::vector<Obstacles*> bananas;
     int gridLength;
 
     TileMap();

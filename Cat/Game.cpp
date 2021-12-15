@@ -2,6 +2,8 @@
 #include "game.h"
 #include "TileMap.h"
 #include "Tile.h"
+#include "floor.h"
+#include "obstacles.h"
 
 void Game::initWindow()
 {
@@ -81,16 +83,18 @@ void Game::renderPlayer()
 void Game::renderTileMap(){
     TileMap().setUpInitialState();
 
-    for (int i = 0; i < 2; i++ ){
+    for (int i = 0; i < 1; i++ ){
         for (int j = 0; j < TileMap().tiles[i].size(); j++){
             this -> window.draw(TileMap().tiles[i][j]->sprite);
         }
      }
-    for (int i = 0; i < TileMap().obstacles.size(); i++ ){
-        for (int j = 0; j < TileMap().obstacles[i].size(); j++){
-            this -> window.draw(TileMap().obstacles[i][j]->sprite);
+
+    for (int j = 0; j < TileMap().bananas.size(); j++){
+        std::cout << "it goes through loop" << "\n";
+        this -> window.draw(TileMap().bananas[j]->sprite);
         }
-     }
+
+    this -> window.draw(TileMap().floor[0]->sprite);
 }
 
 void Game::render()
