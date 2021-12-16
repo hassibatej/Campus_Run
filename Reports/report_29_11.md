@@ -39,7 +39,7 @@ This week I spent most of the TD section trying to 'clean' the code we have so a
 
 Rojin Radmehr:
 
-
+This week I made the transition pages that come when the players wants to move to a new floor.Next week I will work on optimization of the transition page.
 
 Hassiba Tej:
 
