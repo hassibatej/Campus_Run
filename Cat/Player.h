@@ -1,6 +1,8 @@
 #pragma once
 #include"item.h"
 #include "stdfx.h"
+#include "Collision.h"
+
 enum PLAYER_ANIMATION_STATES {IDLE = 0, MOVING_LEFT, MOVING_RIGHT, JUMPING, FALLING};
 
 class Player
@@ -9,6 +11,8 @@ private:
 	sf::Sprite sprite;
 	sf::Texture textureSheet;
 	sf::Clock animationTimer;
+
+    sf::RectangleShape body;
 
 	//Animation
 	short animState;
@@ -60,5 +64,8 @@ public:
 	void updateAnimations();
 	void update();
 	void render(sf::RenderTarget& target);
+
+    //Collision
+    Collision GetCollision() {return Collision(body);}
 };
 

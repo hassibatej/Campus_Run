@@ -33,6 +33,8 @@ set(PROJECT_SOURCES
         stdfx.cpp
         obstacles.h
         obstacles.cpp
+        Collision.h
+        Collision.cpp
         )
 
     set(SFML_INCLUDE_DIR "./include")

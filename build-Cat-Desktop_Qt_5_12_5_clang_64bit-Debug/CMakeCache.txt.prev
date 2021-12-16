@@ -245,6 +245,9 @@ SFML_DIR:PATH=/usr/local/lib/cmake/SFML
 //Path to a file.
 SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
 
+//Path to a file.
+_qt5gui_OPENGL_INCLUDE_DIR:PATH=_qt5gui_OPENGL_INCLUDE_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries

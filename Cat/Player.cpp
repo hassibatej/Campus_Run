@@ -92,9 +92,11 @@ void Player::resetAnimationTimer()
 
 void Player::move(const float dir_x, const float dir_y)
 {
-	//Acceleration
-	this->velocity.x += dir_x * this->acceleration;
-	this->velocity.y += 5*dir_y * this->acceleration;
+    //Acceleration
+    this->velocity.x += dir_x * this->acceleration;
+    this->velocity.y += 5*dir_y * this->acceleration;
+
+
 
 	//Limit velocity
     if (std::abs(this->velocity.x) > this->velocityMax)
@@ -132,7 +134,7 @@ void Player::updateMovement()
 {
 	this->animState = PLAYER_ANIMATION_STATES::IDLE;
 
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) 
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
 	{
 		this->move(-1.f, 0.f);
 		this->animState = PLAYER_ANIMATION_STATES::MOVING_LEFT;

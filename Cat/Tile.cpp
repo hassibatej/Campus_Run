@@ -19,6 +19,16 @@ Tile::Tile(std::string textureName, float x, float y, bool passable, bool exit) 
     isExit = exit;
 }
 
+//collision
+Tile::Tile(sf::Texture* texture, sf::Vector2f size , sf::Vector2f position){
+
+    //set origin
+    body.setSize(size);
+    body.setOrigin(size / 2.0f);
+    body.setTexture(texture);
+    body.setPosition(position);
+}
+
 bool Tile::setUpSprite(std::string textureName) {
     if (!texture.loadFromFile(textureName)) {
         return false;
