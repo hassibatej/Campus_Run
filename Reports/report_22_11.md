@@ -39,7 +39,7 @@ This week I primarily focused on merging code blocks with Antoine B. I also furt
 
 
 Rojin Radmehr:
-
+This week I made the text interactions that the player has when they interact with an object ( for example when clicked on an object, they are asked if they want to put that object in their inventory). Next week I will work on the transition between different floors.
 
 
 
