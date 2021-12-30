@@ -35,6 +35,8 @@ set(PROJECT_SOURCES
         obstacles.cpp
         floor.h
         floor.cpp
+        HealthBar.cpp
+        HealthBar.h
         )
 
     set(SFML_INCLUDE_DIR "./include")
