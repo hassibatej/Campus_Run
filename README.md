@@ -58,9 +58,9 @@ How to play the game
 ## Running the project
 
 
-<a name="myfootnote"></a> Note :references part:
+<a name="myfootnote"></a> References:
 <sup>[](#myfootnote)</sup>
-
+Credits to 'Suraj Sharma' for his videos on C++ and SFML
 
 
 
