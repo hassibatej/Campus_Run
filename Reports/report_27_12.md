@@ -1,15 +1,9 @@
-#  Report for the week of December 13th 2021
-
-
-# Teams:
-
-###Run team
-
-
+#  Report for the week of December the 27th 2021
 
 
 
 Antonina: 
+
 
 Marie: 
 
@@ -17,14 +11,6 @@ Marie:
 Fiona: 
 
 
-
-
-
-
-
-
-
-### Dungeon team
 
 Antoine Babu:
 
