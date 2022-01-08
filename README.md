@@ -60,7 +60,7 @@ How to play the game
 
 <a name="myfootnote"></a> Note :references part:
 <sup>[](#myfootnote)</sup>
-https://www.youtube.com/watch?v=IdKZpv6xqdw&list=PL6xSOsbVA1ebkU66okpi-KViAO8_9DJKg
+
 
 
 
