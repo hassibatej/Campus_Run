@@ -42,7 +42,7 @@ Rojin Radmehr:
 This week I made the transition pages that come when the players wants to move to a new floor.Next week I will work on optimization of the transition page.
 
 Hassiba Tej:
-
+Worked on relations between classes and looking more in deepth at the gravity and way of deplacement of the player.
 
 
 ###Global progression
