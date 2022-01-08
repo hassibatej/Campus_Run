@@ -2,11 +2,8 @@
 
 
 #Teams:
+
 ###UI design
-
-
-
-
 
 Marie:This week, I coded the Collision header and class. These will be utilised to detect player and object interactions and allow us to assign particular actions depending on the object the player is colliding with (i.e. die or be pushed back or slowed down ect.). Next week, I aim to complete this class and be able to apply it to 3 different object types.
 
@@ -32,8 +29,6 @@ Antoine Majoie:
 
 
 Eve Margolis:
-
-
 This week I spent most of the TD section trying to 'clean' the code we have so as to make sure we were not implementing superficial elements. I then worked more on the inventory for the character which should theoretically be transferable for all the levels, as well as implemented a double jump feature. I will continue working on items of our first level next week as well as focus on implementing the additional interesting aspects to make it more complete.
 
 
@@ -41,7 +36,9 @@ Rojin Radmehr:
 
 This week I made the transition pages that come when the players wants to move to a new floor.Next week I will work on optimization of the transition page.
 
+
 Hassiba Tej:
+Worked on relations between classes and looking more in deepth at the gravity and way of deplacement of the player.
 
 
 
