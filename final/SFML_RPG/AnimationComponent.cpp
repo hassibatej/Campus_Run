@@ -24,7 +24,7 @@ const bool & AnimationComponent::isDone(const std::string key)
 }
 
 //Functions
-void AnimationComponent::addAnimation(
+void AnimationComponent::addAnimation( // Hassiba worked on the animation of the character
 	const std::string key,
 	float animation_timer,
 	int start_frame_x, int start_frame_y, int frames_x, int frames_y, int width, int height
@@ -37,7 +37,7 @@ void AnimationComponent::addAnimation(
 	);
 }
 
-const bool& AnimationComponent::play(const std::string key, const float & dt, const bool priority)
+const bool& AnimationComponent::play(const std::string key, const float & dt, const bool priority) // Hassiba, to make sure that the animation runs smoothly
 {
 	if (this->priorityAnimation) //If there is a priority animation
 	{
