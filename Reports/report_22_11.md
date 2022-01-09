@@ -1,7 +1,10 @@
+
 #Report for the week of November 22th 2021
 
 
+
 #Teams:
+
 ###UI design
 
 
@@ -30,8 +33,13 @@ Antoine Majoie:
 Eve Margolis:
 
 
+This week I primarily focused on merging code blocks with Antoine B. I also further worked on the coins and coin counter in the context of our new coding framework.I also worked on the basics of the inventory and items the character would interact with in the first level.Next week I will finalize these aspects.
+
+
+
 
 Rojin Radmehr:
+This week I made the text interactions that the player has when they interact with an object ( for example when clicked on an object, they are asked if they want to put that object in their inventory). Next week I will work on the transition between different floors.
 
 
 

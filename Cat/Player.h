@@ -1,6 +1,6 @@
 #pragma once
-//#include "obstacle.h"
-#include "stdafx.h"
+#include"item.h"
+#include "stdfx.h"
 enum PLAYER_ANIMATION_STATES {IDLE = 0, MOVING_LEFT, MOVING_RIGHT, JUMPING, FALLING};
 
 class Player
@@ -20,6 +20,7 @@ private:
 	float velocityMax;
 	float velocityMin;
 	float acceleration;
+	float drag;
 	float gravity;
 	float velocityMaxY;
 
@@ -31,6 +32,12 @@ private:
 	void initAnimations();
 	void initPhysics();
 
+	bool isCollidingWithCoin(Coin* coin) {
+		if (this->getGlobalBounds().intersects(coin->getGlobalBounds())) {
+			return true;
+		}
+		return false;
+	}
 
 public:
 	Player();
@@ -44,7 +51,6 @@ public:
 	//Modifiers
 	void setPosition(const float x, const float y);
 	void resetVelocityY();
-	void resetVelocityX();
 
 	//Functions	
 	void resetAnimationTimer();
