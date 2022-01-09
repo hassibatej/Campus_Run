@@ -26,6 +26,7 @@ const sf::Vector2f & MovementComponent::getVelocity() const
 }
 
 //Functions
+//Antoine Majoie worked on this file
 const bool MovementComponent::getState(const short unsigned state) const
 {
 	switch (state)
