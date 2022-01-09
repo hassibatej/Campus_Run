@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "Player.h"
-
+// Eve worked on parts of this file
 //Initializer functions
 void Player::initVariables()
 {

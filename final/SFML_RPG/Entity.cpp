@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "Entity.h"
-
+// Eve worked on this file
 void Entity::initVariables()
 {
 	this->hitboxComponent = NULL;
