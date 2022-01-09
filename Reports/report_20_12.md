@@ -41,7 +41,7 @@ Eve Margolis:
 
 
 Rojin Radmehr:
-
+This week I worked on gameover and win screens and their relation to other pages. Next week I will look into another form of text now that the vision for the game has changed.
 
 
 Hassiba Tej:

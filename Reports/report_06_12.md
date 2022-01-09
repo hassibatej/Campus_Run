@@ -36,7 +36,7 @@ Eve Margolis: This week I worked on merging the codes of the two sections and di
 
 
 Rojin Radmehr:
-
+This week I worked on the main menu and how to implement the buttons. Next week I will work on omptimization of the text implementation.
 
 
 Hassiba Tej:
