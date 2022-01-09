@@ -74,7 +74,7 @@ In order to run the project, you have to open your favourite IDE platform (we us
 ### 4.2 : Instructions: 
 Here are some instructions on how to move around the campus:
 
-- Press W to jump
+- Press SPACE to jump
 
 - Press Escape to access the menu
 
