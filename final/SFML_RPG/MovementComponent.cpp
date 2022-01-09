@@ -98,7 +98,7 @@ void MovementComponent::stopVelocityY()
 
 	this->velocity.y = 0.f;
 }
-
+// Hassiba worked on the way the player moves 
 void MovementComponent::move(const float dir_x, const float dir_y, const float& dt)
 {
 
@@ -106,7 +106,7 @@ void MovementComponent::move(const float dir_x, const float dir_y, const float& 
 	this->velocity.x = 95;
 	this->velocity.y += this->acceleration * dir_y * dt;
 }
-
+// Hassiba implemented the gravity/ physics for the player
 void MovementComponent::update(const float & dt)
 {
 	/*
