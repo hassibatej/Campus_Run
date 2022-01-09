@@ -1,6 +1,9 @@
 #include "stdafx.h"
 #include "PlayerGUI.h"
 
+//Antoine Majoie worked on this file
+
+
 void PlayerGUI::initFont()
 {
 	this->font.loadFromFile("Fonts/Dosis-Light.ttf");

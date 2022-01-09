@@ -17,7 +17,7 @@ void Won::initFonts()
 	}
 }
 
-
+//Antoine Majoie worked on this file
 sf::SoundBuffer buffer12;
 sf::Sound spark2;
 
