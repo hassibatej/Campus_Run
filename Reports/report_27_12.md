@@ -2,7 +2,7 @@
 
 
 
-Antonina: 
+Antonina: This week, I stopped working on the cat code (which us Mac users had been coding on) and began working with Rojin on team dungeon's code, which we have decided would be the main code for the game. I worked with her to finish implementing scenes, such as creating a GameOver and Won screens, and focused on controlling screen transitions by player movement, ie if a player hit a killing type tile object then they would die and the GameOver screen would be showed. I worked on the TileMap and Game classes for this transition part individually as well as the classes dedicated the individual scenes with Rojin.  
 
 
 
@@ -22,7 +22,7 @@ Antoine Majoie: I went back to Belgium over the break with the hope to get my wi
 
 
 
-Eve Margolis: 
+Eve Margolis:
 
 
 
@@ -37,7 +37,3 @@ Hassiba Tej:
 ### Done this week :
 - Set up the Trello and Git
 - Research
-
-  
-
-
