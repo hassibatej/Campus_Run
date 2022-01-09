@@ -18,9 +18,7 @@ Fiona: This week, I worked on optimizing the map I have created last week for th
 We will also be able to use them as exit objects (to signal the end of the level)
 
 
-
-
-
+Antoine Majoie: I have managed to implement a working camera, I have also started to look at a paralax view to have a dynamic background. I have started to have several layers of background so that the atmosphere of the game is improved.
 
 
 
@@ -29,9 +27,6 @@ We will also be able to use them as exit objects (to signal the end of the level
 
 Antoine Babu:
 
-
-
-Antoine Majoie:
 
 
 
