@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "TileMap.h"
 
+// Eve and Fiona worked on this file
+
 void TileMap::clear()
 {
 	if (!this->map.empty())

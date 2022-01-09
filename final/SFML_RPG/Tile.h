@@ -3,7 +3,7 @@
 
 
 //This file was worked on by Eve 
-enum TileTypes { DEFAULT = 0, KILLING = 1, ISFLAG = 2, LEFTWALL = 3};
+enum TileTypes { DEFAULT = 0, KILLING = 1, ISFLAG = 2, LEFTWALL = 3}; // Eve and Fiona worked on Tile Types
 
 class Tile
 {
