@@ -47,7 +47,7 @@ Therefore, you decide to run to the SPIS station to warn them that the fire is u
   - Antonina Mijatovic
   - Rojin Radmehr
   
-### Audio 
+### Audio and sprites
   - Antoine Majoie 
   - Marie-Alexis Mezin
 
