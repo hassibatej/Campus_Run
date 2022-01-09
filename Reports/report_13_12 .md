@@ -16,7 +16,7 @@ Marie: This week, my computer encountered some errors as a result of it updating
 
 
 
-Fiona: 
+Fiona: This week, I continued to look at ways to optimize the map but I mainly tried to help Antonina have the code work on their computer following the instructions I had wrote. By the end, Antonina could see the map on her computer
 
 
 
