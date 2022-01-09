@@ -1,5 +1,7 @@
 #include "stdafx.h"
 #include "KillingTile.h"
+// Eve worked on this file
+
 
 KillingTile::KillingTile(short type, int grid_x, int grid_y, float gridSizeF,
 	const sf::Texture& texture, const sf::IntRect& texture_rect, bool collision)

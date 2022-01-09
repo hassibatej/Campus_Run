@@ -2,7 +2,7 @@
 #define TILE_H
 
 
-
+//This file was worked on by Eve 
 enum TileTypes { DEFAULT = 0, KILLING = 1, ISFLAG = 2, LEFTWALL = 3};
 
 class Tile
