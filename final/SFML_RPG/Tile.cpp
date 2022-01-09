@@ -4,7 +4,7 @@
 Tile::Tile()
 {
 	this->collision = false;
-	this->type = 0;
+	this->type = 0; // Eve and Fiona worked on Tile Types
 }
 
 Tile::Tile(short type, int grid_x, int grid_y, float gridSizeF,
@@ -27,7 +27,7 @@ Tile::~Tile()
 }
 
 //Accessors
-const short & Tile::getType() const
+const short & Tile::getType() const // Eve and Fiona worked on Tile Types
 {
 	return this->type;
 }

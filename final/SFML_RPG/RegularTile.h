@@ -3,6 +3,8 @@
 
 #include "Tile.h"
 
+// Fiona and Eve worked on this
+
 class RegularTile :
 	public Tile
 {
