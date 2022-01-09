@@ -5,7 +5,9 @@
 Antonina: 
 
 
-Marie: 
+
+Marie: This week, Antoine and I worked on sound effect (i.e. the sound the player makes when he jumps), background music, and transition scene sound effect as well as setting the background for different sections of the game.
+
 
 
 Fiona: 

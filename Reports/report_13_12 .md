@@ -11,7 +11,9 @@
 
 Antonina: 
 
-Marie: 
+
+Marie: This week, my computer encountered some errors as a result of it updating. I could no longer get the code to work with Qt and am uncertain as to how to fix it. Hopefully, I can fix this issue by next week and thus be able to finish collision. 
+
 
 
 Fiona: 
