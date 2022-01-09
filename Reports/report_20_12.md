@@ -9,7 +9,7 @@
 
 
 
-Antonina: 
+Antonina: This week, I attempted to continue working on scenes, mainly transitions once the player had a collision with a block with was designed to kill the player, but I was unable to work on this because I needed collisions to be implemented in the code before I could work on this. I tried to help Fiona implement Marie's collision class to the code, but I was unsuccessful.  
 
 
 Marie: Unfortunately, I was not able to fix the issue on my own computer, so I downloaded everything on a separate computer. This weeks goal is to code a countdown clock which will appear on the upper right corner of the screen.
@@ -35,7 +35,7 @@ Antoine Babu:
 
 
 
-Eve Margolis: 
+Eve Margolis:
 
 
 
