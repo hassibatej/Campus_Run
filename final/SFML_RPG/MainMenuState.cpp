@@ -1,5 +1,5 @@
-
 //Rojin Radmehr
+//antonina mijatovic worked on this file
 
 #include "stdafx.h"
 #include "MainMenuState.h"
@@ -161,7 +161,7 @@ void MainMenuState::updateButtons()
 		this->states->push(new GameState(this->stateData));
 	}
 
-	//About us 
+	//About us
 	if (this->buttons["ABOUT"]->isPressed())
 	{
 		this->states->push(new About(this->stateData));
