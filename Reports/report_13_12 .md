@@ -9,7 +9,9 @@
 
 
 
-Antonina: 
+Antonina: This week, I worked on making sure the code would run on my computer. I worked with both the TAs and Fiona to do this and, in the end, was able to see the map on my computer and could write code on my own computer rather than someone else's.
+
+
 
 
 Marie: This week, my computer encountered some errors as a result of it updating. I could no longer get the code to work with Qt and am uncertain as to how to fix it. Hopefully, I can fix this issue by next week and thus be able to finish collision. 
@@ -36,7 +38,8 @@ Antoine Babu:
 
 
 
-Eve Margolis: 
+Eve Margolis:
+
 
 
 
