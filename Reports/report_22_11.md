@@ -26,7 +26,7 @@ Antoine Babu: This week I mainly worked on merging code blocks with Eve. In term
 
 
 
-Antoine Majoie:
+Antoine Majoie: This week I decided to work on how the the camera works on SFML. I was able to have a functional code. A white block going up, down, left, right and made sure that the camera followed the white block. 
 
 
 
