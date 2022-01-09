@@ -50,3 +50,7 @@ Hassiba Tej:
 ### Done this week :
 - Set up the Trello and Git
 - Research
+
+  
+
+

@@ -27,7 +27,7 @@ Antoine Babu:
 
 
 
-Antoine Majoie:
+Antoine Majoie: I have spent the week trying to get the camera to work on the main code. I have also started to do some research on how to implement texures and import images by associating an image to a block to ultimately make sprites.
 
 
 
@@ -39,10 +39,10 @@ This week I spent most of the TD section trying to 'clean' the code we have so a
 
 Rojin Radmehr:
 
-
+This week I made the transition pages that come when the players wants to move to a new floor.Next week I will work on optimization of the transition page.
 
 Hassiba Tej:
-
+Worked on relations between classes and looking more in deepth at the gravity and way of deplacement of the player.
 
 
 ###Global progression

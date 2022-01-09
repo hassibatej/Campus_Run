@@ -1,0 +1,136 @@
+This is a How to: have SFML on Qt using cmake.
+
+1 - Download CMake:
+    If you already have Homebrew: type 'brew intall cmake' in your terminal.
+    If you don't have Homebrew, download Homebrew and then type 'brew intall cmake' in your terminal.
+    If it doesn't work, go the cmake.org > downloads and look at instructions for mac 
+
+2- Download the SFLM file:
+   Go to https://www.sfml-dev.org/download/sfml/2.5.1/ and go to the very bottom of the page where you will see 'ALL' - 'Source Code' - 'Download' and click Download
+
+3- Building:
+   Open your terminal and go to the SFML file you just downloaded
+
+   Create a build folder: type 'mkdir build'
+
+   Go to the folder: type 'cd build'
+
+   Generate the MakeFile: type 'cmake ..'
+
+   Build: type 'make'
+
+   install the SFML globably: type 'sudo make install'
+
+//////// skip to step 6- if you have an existing project ////////
+
+4- Creating a project on Qt:
+	
+   Create a Cmake project on Qt. You should have a CmakeList.txt file in your project.replace the content by:
+
+cmake_minimum_required(VERSION 3.5)
+
+project(Myproject VERSION 0.1 LANGUAGES CXX)
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
+
+set(PROJECT_SOURCES
+        main.cpp
+        mainwindow.cpp
+        mainwindow.h
+        mainwindow.ui
+)
+
+
+### here, make sure your have the right paths: 
+### SFML_INCLUDE_DIR should lead to a folder called SFML which includes graphics, audio, Window, system,... 
+### These files will be the ones you call when you do #include in your code. (./ is a shortcut that leads to you project (current directory)
+### SFML_LIBRARY_DIR should lead to a bunch of '.dylib', usually situated in a folder called SFML (itself usually stored in a file called lib)
+
+set(SFML_INCLUDE_DIR "./include")
+set(SFML_LIBRARY_DIR "./lib/SFML")
+
+link_directories(${SFML_LIBRARY_DIR})
+include_directories(${SFML_INCLUDE_DIR})
+
+find_package(SFML 2.5.1 COMPONENTS system window graphics network audio)
+
+if(SFML_FOUND)
+    message(STATUS "SFML_INCLUDE_DIR: ${SFML_INCLUDE_DIR}")
+    message(STATUS "SFML_LIBRARIES: ${SFML_LIBRARIES}")
+    message(STATUS "SFML_VERSION: ${SFML_VERSION}")
+endif()
+
+if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    qt_add_executable(Myproject
+        MANUAL_FINALIZATION
+        ${PROJECT_SOURCES}
+    )
+# Define target properties for Android with Qt 6 as:
+#    set_property(TARGET Myproject APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
+#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
+# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
+else()
+    if(ANDROID)
+        add_library(Myproject SHARED
+            ${PROJECT_SOURCES}
+        )
+# Define properties for Android with Qt 5 after find_package() calls as:
+#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
+    else()
+        add_executable(Myproject
+            ${PROJECT_SOURCES}
+        )
+    endif()
+endif()
+
+target_link_libraries(Myproject PRIVATE Qt${QT_VERSION_MAJOR}::Widgets sfml-graphics sfml-window sfml-system sfml-audio)
+
+set_target_properties(Myproject PROPERTIES
+    MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
+    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+)
+
+if(QT_VERSION_MAJOR EQUAL 6)
+    qt_finalize_executable(Myproject)
+endif()
+
+
+
+5- Make sure your files are in the write place:
+
+   check the code above and make sure the "paths" you wrote correspond to the paths of the files.
+
+////////////////////////////////////////
+
+6- The code should work!!!
+
+	Now you just need to build it using cmake:
+
+	open terminal and go to the project's current directory
+	
+	Create a build folder: type 'mkdir build'
+
+  	Go to the folder: type 'cd build'
+
+   	Generate the MakeFile: type 'cmake ..'
+
+   	Build: type 'make'
+
+
+   every time you create a new file, make sure o include it in "project sources in the CMakeLists.txt file.
+
+
+   
+
+   
