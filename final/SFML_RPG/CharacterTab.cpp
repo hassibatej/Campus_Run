@@ -1,4 +1,5 @@
-﻿#include "stdafx.h"
+﻿//Rojin Radmehr
+#include "stdafx.h"
 #include "CharacterTab.h"
 
 void CharacterTab::initText()
