@@ -1,4 +1,4 @@
-#  Report for the week of December the 27th 2021
+ f#  Report for the week of December the 27th 2021
 
 
 
@@ -18,7 +18,7 @@ Antoine Babu:
 
 
 
-Antoine Majoie:
+Antoine Majoie: I went back to Belgium over the break with the hope to get my windows laptop fixed. Unfortunatley, as my parents have COVID, I am a contact case, and cannot leave the house. I therefore tried to implement SFML on our family laptop, I am encountering several buggs. I kept working on the music and 3D sound space research in the mean time. Next week, if my old windows still does not work I will get it fixed in Paris as soon as I get back to campus.
 
 
 
