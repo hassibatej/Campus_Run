@@ -1,4 +1,6 @@
+
 //Rojin Radmehr
+
 #include "stdafx.h"
 #include "MainMenuState.h"
 
@@ -16,6 +18,8 @@ void MainMenuState::initFonts()
 	}
 }
 
+
+//Marie-Alexis worked on audio in this file
 sf::SoundBuffer buffer6;
 sf::Sound accept;
 
@@ -42,6 +46,8 @@ void MainMenuState::initKeybinds()
 	ifs.close();
 }
 
+
+//Marie-Alexis worked on implementing the background in this section
 void MainMenuState::initGui()
 {
 	const sf::VideoMode& vm = this->stateData->gfxSettings->resolution;

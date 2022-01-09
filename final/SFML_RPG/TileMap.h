@@ -10,7 +10,9 @@
 #include"State.h"
 
 
+//Marie-Alexis worked on collision in this file
 // Eve and Fiona worked on this file
+
 class TileMap
 {
 private:

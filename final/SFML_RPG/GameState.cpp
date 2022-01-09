@@ -37,7 +37,9 @@ void GameState::initView()
 	);
 }
 
-//Antoine Majoie worked on this file
+
+//Marie-Alexis and Antoine Majoie worked on sound in this file
+
 sf::SoundBuffer buffer3;
 sf::Sound spark;
 sf::SoundBuffer buffer4;
@@ -215,6 +217,7 @@ void GameState::updateView(const float& dt)
 	this->viewGridPosition.x = static_cast<int>(this->view.getCenter().x) / static_cast<int>(this->stateData->gridSize);
 	this->viewGridPosition.y = static_cast<int>(this->view.getCenter().y) / static_cast<int>(this->stateData->gridSize);
 }
+
 
 //Antoine Majoie worked on this file
 void GameState::updateInput(const float& dt)
