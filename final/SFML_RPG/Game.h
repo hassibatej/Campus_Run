@@ -1,5 +1,6 @@
 #ifndef GAME_H
 #define GAME_H
+//antonina mijatovic worked on this file
 
 #include "MainMenuState.h"
 #include "TextState.h"

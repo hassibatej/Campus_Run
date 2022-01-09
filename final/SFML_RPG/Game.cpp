@@ -3,7 +3,6 @@
 
 //antonina mijatovic worked on functions in this file
 
-
 //Static functions
 
 //Initializer functions

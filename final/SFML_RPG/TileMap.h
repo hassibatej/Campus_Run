@@ -12,6 +12,7 @@
 
 // Eve and Fiona worked on this file
 //antonina mijatovic worked on this file
+//Marie-Alexis worked on collision in this file
 class TileMap
 {
 private:

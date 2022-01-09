@@ -3,6 +3,7 @@
 
 // Eve and Fiona worked on this file
 //antonina mijatovic worked on this file
+//Marie-Alexis worked on collision in this file
 
 void TileMap::clear()
 {
@@ -211,7 +212,6 @@ void TileMap::loadFromFile(const std::string file_name)
 			{
 
 				in_file >> trX >> trY >> collision;
-
 				this->map[x][y][z].push_back(
 					new KillingTile(
 						type,
