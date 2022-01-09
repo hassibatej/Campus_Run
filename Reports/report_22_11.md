@@ -1,7 +1,10 @@
-#Report for the week of November 15th 2021
+
+#Report for the week of November 22th 2021
+
 
 
 #Teams:
+
 ###UI design
 
 
@@ -23,15 +26,19 @@ Antoine Babu: This week I mainly worked on merging code blocks with Eve. In term
 
 
 
-Antoine Majoie:
-
+Antoine Majoie: This week I decided to work on how the the camera works on SFML. I was able to have a functional code. A white block going up, down, left, right and made sure that the camera followed the white block. I was also to understand differenttypes of objects: those that interact with the player (could be used as an obstacle, sprite, tile, or enemy) and those that do not interact with the player (could be used for a healtbar, coin counter, time, etc.). I now hope to merge what I have obtained with the main code.
 
 
 Eve Margolis:
 
 
+This week I primarily focused on merging code blocks with Antoine B. I also further worked on the coins and coin counter in the context of our new coding framework.I also worked on the basics of the inventory and items the character would interact with in the first level.Next week I will finalize these aspects.
+
+
+
 
 Rojin Radmehr:
+This week I made the text interactions that the player has when they interact with an object ( for example when clicked on an object, they are asked if they want to put that object in their inventory). Next week I will work on the transition between different floors.
 
 
 
