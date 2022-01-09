@@ -1,3 +1,6 @@
+
+//Rojin Radmehr
+
 #include "stdafx.h"
 #include "Won.h"
 #include<SFML/Audio.hpp>
@@ -16,7 +19,9 @@ void Won::initFonts()
 	}
 }
 
-//Marie-Alexis worked on sound in this file
+
+//Anroine Majoie and Marie-Alexis worked on sound in this file
+
 sf::SoundBuffer buffer12;
 sf::Sound spark2;
 

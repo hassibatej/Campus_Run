@@ -63,7 +63,7 @@ Therefore, you decide to run to the SPIS station to warn them that the fire is u
 ### 4.1 : Running the project
 In order to run the project, you have to open your favourite IDE platform (we used VS Community) and follow those steps:
 - 0 : make sure you have [SFML](https://www.sfml-dev.org/index-fr.php) on your computer, so that everything runs correctly.
-- 1 : run the .sln file. 
+- 1 : download the Final directory and run the .sln file. 
 - 2 : running the project (with debugger or run command)
 - 3 : wait until the game is build and the window opens.
 - 4 : press the 'New Game' button 
@@ -74,7 +74,7 @@ In order to run the project, you have to open your favourite IDE platform (we us
 ### 4.2 : Instructions: 
 Here are some instructions on how to move around the campus:
 
-- Press W to jump
+- Press SPACE to jump
 
 - Press Escape to access the menu
 

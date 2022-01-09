@@ -1,3 +1,6 @@
+
+//Rojin Radmehr
+
 #include "stdafx.h"
 #include "MainMenuState.h"
 
@@ -14,6 +17,7 @@ void MainMenuState::initFonts()
 		throw("ERROR::MAINMENUSTATE::COULD NOT LOAD FONT");
 	}
 }
+
 
 //Marie-Alexis worked on audio in this file
 sf::SoundBuffer buffer6;
@@ -41,6 +45,7 @@ void MainMenuState::initKeybinds()
 
 	ifs.close();
 }
+
 
 //Marie-Alexis worked on implementing the background in this section
 void MainMenuState::initGui()

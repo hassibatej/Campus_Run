@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "HitboxComponent.h"
 
+
 //Marie-Alexis worked on this file 
 HitboxComponent::HitboxComponent(sf::Sprite& sprite, 
 	float offset_x, float offset_y, 
