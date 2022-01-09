@@ -56,6 +56,14 @@ How to play the game
 ## Installing the dependencies
 
 ## Running the project
+In order to run the project, you have to open your favourite IDE platform (we used VS Community) and follow those steps:
+- 0 : make sure you have [SFML](https://www.sfml-dev.org/index-fr.php) on your computer, so that everything runs correctly.
+- 1 : run the .sln file. 
+- 2 : running the project (with debugger or run command)
+- 3 : wait until the game is build and the window opens.
+- 4 : press the 'New Game' button 
+- 6 : read the instructions
+- 7 : to play the game, refer to the lines written on the instructions.
 
 
 <a name="myfootnote"></a> References:
