@@ -27,7 +27,7 @@ Antoine Babu:
 
 
 
-Antoine Majoie:
+Antoine Majoie: I have spent the week trying to get the camera to work on the main code. I have also started to do some research on how to implement texures and import images by associating an image to a block to ultimately make sprites.
 
 
 
