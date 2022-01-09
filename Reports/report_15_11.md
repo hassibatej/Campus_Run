@@ -19,7 +19,7 @@ Antonina: This week, I worked on researching Godot for mac, such as downloading 
 Antoine Babu: This week I worked on implementing the missing features to catch up with the pace we set for ourselves. This notably includes map handling, which will allow us to start creating levels. I've started to look into menus and GUI as we have several features which require to be implemented in a similar fashion.
 
 
-Antoine Majoie:
+Antoine Majoie: This week, the TA mentioned that Godot could be a good for Mac and Windows. As I have both I was able to download the appropriate libraries on Mac and Windows with Fiona and Antonina. However we concluded that Godot was not a viable option. We then turned to Unreal Engine, compatible with both Mac and Windows as well, however as a specific version of iOS was required we again concluded that Unreal Engine was not a viable option for the group to turn to. I have made progress on the camera and was able to make an SFML file function on Mac (one that is independent from the Cat Code). Next week I hope to have an enitrely functional camera.
 
 
 
