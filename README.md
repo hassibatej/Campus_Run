@@ -10,12 +10,17 @@ CSE201 C++ group project
 
 <a name="project"></a>
 ## 1. Project Description 
-Campus Run intends to implement a 'BananaKong-like' game, using graphics inspired
-=======
-Campus Run intends to implement a 'BananaKong-like' game, using graphics inspired
-from the campus most famous spots  (namely Amphi Cauchy, Bâtiment 103, Bôbar,...)
-and allow the player to navigate and complete tasks to reach the next levels and
+
+Campus Run intends to implement a 'Geometry Dash' like game, using graphics inspired
+from the campus most famous spots (namely the Lake and the SPIS truck) and allow the player to navigate and the map, making sure to survive as he goes forward and
 eventually, complete the game.
+
+### 1.1. History :
+Hello! Welcome to Campus Run! 
+You are a Bachelor student in the Building 103. You open your refrigerator and realize that you only have an egg on your shelf. You look at your flatmate’s shelf and he has a slice of bacon. It looks so delicious and you are so hungry that you choose to steal it. 
+As it is sizzling in your pan, your flatmate comes into the kitchen and catches you red-handed, cooking his bacon. 
+While you are both arguing, your slice of bacon burns to a crisp and your fire alarm goes off. There is no fire, but the alarm won’t stop ringing. Both your phone and your flatmate’s phone have no charge. However you know that the SPIS will yell at you if they come to your flat just because you burnt your piece of bacon…
+Therefore, you decide to run to the SPIS station to warn them that the fire is under control.
 
 <a name ="members"></a>
 
@@ -34,28 +39,28 @@ eventually, complete the game.
 <a name="teams"></a>
 ## 3.Teams
 
-### UI/Graphics
-    
+### Map
   - Fiona Boulman 
+  - Eve Margolis
+  
+### Scenes
   - Antonina Mijatovic
+  - Rojin Radmehr
+  
+### Audio 
+  - Antoine Majoie 
   - Marie-Alexis Mezin
 
-### Game Engine development
+### Game Engine development & physics
   - Antoine Babu
-  - Antoine Majoie
-  - Eve Margolis
-  - Rojin Radmehr
   - Hassiba Tej
 
 
 <a name="instruction"></a>
-## 4.Usage instruction 
-How to play the game 
+## 4.Usage instruction on how to play the game
 
 
-## Installing the dependencies
-
-## Running the project
+### 4.1 : Running the project
 In order to run the project, you have to open your favourite IDE platform (we used VS Community) and follow those steps:
 - 0 : make sure you have [SFML](https://www.sfml-dev.org/index-fr.php) on your computer, so that everything runs correctly.
 - 1 : run the .sln file. 
@@ -64,6 +69,19 @@ In order to run the project, you have to open your favourite IDE platform (we us
 - 4 : press the 'New Game' button 
 - 6 : read the instructions
 - 7 : to play the game, refer to the lines written on the instructions.
+
+
+### 4.2 : Instructions: 
+Here are some instructions on how to move around the campus:
+
+- Press W to jump
+
+- Press Escape to access the menu
+
+Beware! The campus can be dangerous! Avoid spikes and lava* as you run by jumping over them.
+
+*To make this game more therapeutic, one could interpret the spikes and lava as exams, deadlines, or any other source of anguish they would like to avoid.
+
 
 
 <a name="myfootnote"></a> References:
