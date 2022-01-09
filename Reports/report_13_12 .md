@@ -19,6 +19,8 @@ Marie: This week, my computer encountered some errors as a result of it updating
 Fiona: This week, I continued to look at ways to optimize the map but I mainly tried to help Antonina have the code work on their computer following the instructions I had wrote. By the end, Antonina could see the map on her computer
 
 
+Antoine Majoie: This week my grandfather passed away, I was not able to do much progress as I was not in a right mental state. Nonetheless, I have continued to research on paralax view and the potential implementation of sound.
+
 
 
 
@@ -31,8 +33,6 @@ Fiona: This week, I continued to look at ways to optimize the map but I mainly t
 Antoine Babu:
 
 
-
-Antoine Majoie:
 
 
 
