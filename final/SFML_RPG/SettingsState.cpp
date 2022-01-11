@@ -17,7 +17,9 @@ void SettingsState::initFonts()
 }
 
 
-sf::SoundBuffer buffer5; // Antoine Majoie (sound)
+//Antoine Majoie  and Marie-Alexis worked on sound in this file 
+
+sf::SoundBuffer buffer5; 
 sf::Sound song2;
 
 
@@ -175,10 +177,12 @@ void SettingsState::updateGui(const float& dt)
 
 	//Button functionality
 	//Quit the game
+
+	//Antoine Majoie worked on this file
 	if (this->buttons["BACK"]->isPressed())
 	{
 
-		song2.pause(); //pauses the music Antoine Majoie
+		song2.pause(); //pauses the music 
 
 		this->endState();
 	}

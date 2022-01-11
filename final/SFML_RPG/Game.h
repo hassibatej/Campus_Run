@@ -1,11 +1,12 @@
 #ifndef GAME_H
 #define GAME_H
+//antonina mijatovic worked on this file
 
 #include "MainMenuState.h"
 #include "TextState.h"
 #include "Gameover.h"
 #include"BlackpageState.h"
-
+#include"Won.h"
 class Game
 {
 private:
@@ -36,10 +37,6 @@ public:
 	//Constructors/Destructors
 	Game();
 	virtual ~Game();
-
-	//Functions
-	/*void endDeath(TileMap tileMap);
-	void endFlag(TileMap tileMap);*/
 
 	//Regular
 	void endApplication();

@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "RegularTile.h"
 
+// Fiona and Eve worked on this
+
 RegularTile::RegularTile(short type, int grid_x, int grid_y, float gridSizeF,
 	const sf::Texture& texture, const sf::IntRect& texture_rect,
 	bool collision)

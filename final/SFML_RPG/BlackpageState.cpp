@@ -1,3 +1,6 @@
+//Rojin Radmehr
+//antonina mijatovic worked on this file
+
 #include "stdafx.h"
 #include "BlackpageState.h"
 
@@ -46,6 +49,7 @@ void BlackpageState::initGui()
 		)
 	);
 
+//Antoine Majoie worked on this file
 	if (!this->backgroundTexture.loadFromFile("Images_and_Audio/Images/bg4.png"))
 	{
 		throw "ERROR::MAIN_MENU_STATE::FAILED_TO_LOAD_BACKGROUND_TEXTURE";

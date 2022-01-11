@@ -1,3 +1,6 @@
+//Rojin Radmehr
+//antonina mijatovic worked on this file
+
 #include "stdafx.h"
 #include "Won.h"
 #include<SFML/Audio.hpp>
@@ -16,7 +19,7 @@ void Won::initFonts()
 	}
 }
 
-
+//Antoine Majoie and Marie-Alexis worked on sound in this file
 sf::SoundBuffer buffer12;
 sf::Sound spark2;
 
@@ -152,6 +155,7 @@ void Won::updateInput(const float& dt)
 void Won::updateButtons()
 {
 	/*Updates all the buttons in the state and handles their functionlaity.*/
+  //antonina mijatovic added this
 	TileMap::recreateInstance();
 
 	for (auto& it : this->buttons)

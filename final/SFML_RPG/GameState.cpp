@@ -38,6 +38,8 @@ void GameState::initView()
 }
 
 
+//Marie-Alexis and Antoine Majoie worked on sound in this file
+
 sf::SoundBuffer buffer3;
 sf::Sound spark;
 sf::SoundBuffer buffer4;
@@ -217,6 +219,8 @@ void GameState::updateView(const float& dt)
 	this->viewGridPosition.y = static_cast<int>(this->view.getCenter().y) / static_cast<int>(this->stateData->gridSize);
 }
 
+
+//Antoine Majoie worked on this file
 void GameState::updateInput(const float& dt)
 {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key(this->keybinds.at("CLOSE"))) && this->getKeytime())

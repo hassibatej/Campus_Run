@@ -9,6 +9,10 @@
 #include"Entity.h"
 #include"State.h"
 
+
+// Eve and Fiona worked on this file
+//antonina mijatovic worked on this file
+//Marie-Alexis worked on collision in this file
 class TileMap
 {
 private:
@@ -42,6 +46,7 @@ private:
 	static TileMap* instance;
 
 public:
+	//antonina mijatovic worked on these two methods
 	static TileMap* getInstance();
 	static TileMap* recreateInstance();
 	//Accessors
@@ -50,6 +55,7 @@ public:
 	const int getLayerSize(const int x, const int y, const int layer) const;
 	const sf::Vector2i& getMaxSizeGrid() const;
 	const sf::Vector2f& getMaxSizeF() const;
+	//antonina mijatovic worked on these two functions
 	bool getDead() const;
 	bool getFlag() const;
 
@@ -63,8 +69,8 @@ public:
 
 	void render(
 		sf::RenderTarget& target,
-		const sf::Vector2i& gridPosition, 
-		sf::Shader* shader = NULL, 
+		const sf::Vector2i& gridPosition,
+		sf::Shader* shader = NULL,
 		const sf::Vector2f playerPosition = sf::Vector2f(),
 		const bool show_collision = false
 	);

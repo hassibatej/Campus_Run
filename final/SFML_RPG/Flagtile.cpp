@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "FlagTile.h"
 
+// Fiona worked on this files
 // Eve worked on this file
 FlagTile::FlagTile(short type, int grid_x, int grid_y, float gridSizeF,
 	const sf::Texture& texture, const sf::IntRect& texture_rect, bool collision)

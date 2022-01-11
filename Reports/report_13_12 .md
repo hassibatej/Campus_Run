@@ -45,7 +45,7 @@ Eve Margolis:
 
 
 Rojin Radmehr:
-
+This week I worked on the optimization of the text to be able to move to the next part of thext with a press of a key, but I was unsuccessful. Next week I will work on the end screens for when the player either wins or loses.
 
 
 Hassiba Tej:
