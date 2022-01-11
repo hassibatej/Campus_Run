@@ -1,3 +1,5 @@
+//Rojin Radmehr
+//antonina mijatovic worked on this file
 #include "stdafx.h"
 #include "Gameover.h"
 
@@ -142,6 +144,7 @@ void Gameover::updateButtons()
 {
 	/*Updates all the buttons in the state and handles their functionlaity.*/
 
+	//antonina mijatovic added this
 	TileMap::recreateInstance();
 
 	for (auto& it : this->buttons)

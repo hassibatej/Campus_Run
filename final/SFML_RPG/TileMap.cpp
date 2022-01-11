@@ -2,6 +2,8 @@
 #include "TileMap.h"
 
 // Eve and Fiona worked on this file
+//antonina mijatovic worked on this file
+//Marie-Alexis worked on collision in this file
 
 void TileMap::clear()
 {
@@ -140,10 +142,12 @@ const sf::Vector2f & TileMap::getMaxSizeF() const
 	return this->maxSizeWorldF;
 }
 
+//antonina mijatovic added this function
 bool TileMap::getDead() const {
 	return this->dead;
 }
 
+//antonina mijatovic added this function
 bool TileMap::getFlag() const {
 	return this->isflag;
 }
@@ -208,7 +212,6 @@ void TileMap::loadFromFile(const std::string file_name)
 			{
 
 				in_file >> trX >> trY >> collision;
-				
 				this->map[x][y][z].push_back(
 					new KillingTile(
 						type,
@@ -447,15 +450,15 @@ void TileMap::updateTileCollision(Entity * entity, const float & dt)
 
 void TileMap::update(Entity * entity, const float& dt)
 {
-	
+
 }
 
 void TileMap::render
 (
-	sf::RenderTarget & target, 
-	const sf::Vector2i& gridPosition, 
-	sf::Shader* shader, 
-	const sf::Vector2f playerPosition, 
+	sf::RenderTarget & target,
+	const sf::Vector2i& gridPosition,
+	sf::Shader* shader,
+	const sf::Vector2f playerPosition,
 	const bool show_collision
 )
 {
@@ -507,7 +510,7 @@ void TileMap::render
 				}
 			}
 		}
-	}	
+	}
 }
 
 void TileMap::renderDeferred(sf::RenderTarget & target, sf::Shader* shader, const sf::Vector2f playerPosition)
@@ -523,13 +526,16 @@ void TileMap::renderDeferred(sf::RenderTarget & target, sf::Shader* shader, cons
 	}
 }
 
+//antonina mijatovic added this
 TileMap* TileMap::instance = (TileMap*)0;
 
+//antonina mijatovic added this
 TileMap* TileMap::getInstance() {
 	if (instance) return instance;
 	return instance = recreateInstance();
 }
 
+//antonina mijatovic added this
 TileMap* TileMap::recreateInstance() {
 	return instance = new TileMap("text.slmp");
 }

@@ -28,7 +28,7 @@ Eve Margolis:
 
 
 Rojin Radmehr:
-
+This week I worked on the text that works as a tutorial for the game and appears when the game starts. Next week I will re-do some of the previous functions so that they will work better and fix small bugs that they have. 
 
 
 Hassiba Tej:

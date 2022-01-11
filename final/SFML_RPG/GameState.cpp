@@ -38,6 +38,8 @@ void GameState::initView()
 }
 
 
+//Marie-Alexis and Antoine Majoie worked on sound in this file
+
 sf::SoundBuffer buffer3;
 sf::Sound spark;
 sf::SoundBuffer buffer4;
@@ -57,6 +59,7 @@ void GameState::initKeybinds()
 
 		buffer4.loadFromFile("Images_and_Audio/Audio/mm17_main.ogg");
 		song1.setBuffer(buffer4);
+		song1.setLoop(true);
 		song1.play();
 		song1.setVolume(100.f);
 
@@ -216,6 +219,8 @@ void GameState::updateView(const float& dt)
 	this->viewGridPosition.y = static_cast<int>(this->view.getCenter().y) / static_cast<int>(this->stateData->gridSize);
 }
 
+
+//Antoine Majoie worked on this file
 void GameState::updateInput(const float& dt)
 {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key(this->keybinds.at("CLOSE"))) && this->getKeytime())

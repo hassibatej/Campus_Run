@@ -1,2 +1,15 @@
-﻿  CharacterTab.cpp
-  SFML_RPG.vcxproj -> C:\Users\evema\Downloads\CampusRunCleaned2\CampusRunCleaned1\x64\Debug\SFML_RPG.exe
+﻿  About.cpp
+  BlackpageState.cpp
+  CharacterTab.cpp
+  ComingSoon.cpp
+  Game.cpp
+  GameState.cpp
+  Gameover.cpp
+  MainMenuState.cpp
+  PlayerGUI.cpp
+  PlayerGUITabs.cpp
+  TextState.cpp
+  Won.cpp
+  main.cpp
+  Generating Code...
+  SFML_RPG.vcxproj -> C:\Users\rojin\Desktop\Course\CSE201\Project\Campus_Run\final\x64\Debug\SFML_RPG.exe
