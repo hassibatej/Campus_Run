@@ -59,6 +59,7 @@ void GameState::initKeybinds()
 
 		buffer4.loadFromFile("Images_and_Audio/Audio/mm17_main.ogg");
 		song1.setBuffer(buffer4);
+		song1.setLoop(true);
 		song1.play();
 		song1.setVolume(100.f);
 
