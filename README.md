@@ -12,7 +12,7 @@ CSE201 C++ group project
 ## 1. Project Description 
 
 Campus Run intends to implement a 'Geometry Dash' like game, using graphics inspired
-from the campus most famous spots (namely the Lake and the SPIS truck) and allow the player to navigate and the map, making sure to survive as he goes forward and
+from the campus' most famous spots (namely the Lake and the SPIS truck) and allow the player to navigate on the map, making sure to survive as he goes forward and
 eventually, complete the game.
 
 ### 1.1. History :
@@ -72,17 +72,24 @@ In order to run the project, you have to open your favourite IDE platform (we us
 ### 4.2 : Instructions: 
 Here are some instructions on how to move around the campus:
 
-- Press SPACE to jump
+- Keep SPACE pressed to jump
 
 - Press Escape to access the menu
+ 
+- Use your mouse to select options on the screen
 
 Beware! The campus can be dangerous! Avoid spikes and lava* as you run by jumping over them.
+
+
+*To make this game more therapeutic, one could interpret the spikes and lava as exams, deadlines, or any other source of anguish they would like to avoid.
+
+Have fun exploring the campus!
 
 
 
 <a name="myfootnote"></a> References:
 <sup>[](#myfootnote)</sup>
-Credits to 'Suraj Sharma' for his videos on C++ and SFML
+Credits to 'Suraj Sharma' for his videos on C++ and SFML, which we based ourselves off of for certain aspects of our game (Tilemap, GUI, ...)
 
 
 
