@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "Game.h"
 
+//antonina mijatovic worked on functions in this file
 
 //Static functions
 
@@ -25,15 +26,15 @@ void Game::initWindow()
 
 	if(this->gfxSettings.fullscreen)
 		this->window = new sf::RenderWindow(
-			this->gfxSettings.resolution, 
-			this->gfxSettings.title, 
-			sf::Style::Fullscreen, 
+			this->gfxSettings.resolution,
+			this->gfxSettings.title,
+			sf::Style::Fullscreen,
 			this->gfxSettings.contextSettings);
 	else
 		this->window = new sf::RenderWindow(
 			this->gfxSettings.resolution,
 			this->gfxSettings.title,
-			sf::Style::Titlebar | sf::Style::Close, 
+			sf::Style::Titlebar | sf::Style::Close,
 			this->gfxSettings.contextSettings);
 
 	this->window->setFramerateLimit(this->gfxSettings.frameRateLimit);
@@ -104,17 +105,6 @@ void Game::endApplication()
 	std::cout << "Ending Application!" << "\n";
 }
 
-/*void GameState::endDeath(TileMap tileMap) {
-	if (tileMap.dead == true) {
-		this->endState();
-	}
-}
-
-void GameState::endFlag(TileMap tileMap) {
-	if (tileMap.isflag == true) {
-		//WRITE CODE FOR END HERE
-	}
-}*/
 void Game::updateDt()
 {
 	/*Updates the dt variable with the time it takes to update and render one frame.*/
@@ -141,10 +131,12 @@ void Game::update()
 		{
 			this->states.top()->update(this->dt);
 
+			//antonina mijatovic added this condition
 			if (TileMap::getInstance()->getDead()) {
 				this->states.push(new Gameover(&this->stateData));
 			}
 
+			//antonina mijatovic added this condition
 			if (TileMap::getInstance()->getFlag()) {
 				this->states.push(new Won(&this->stateData));
 			}
@@ -187,4 +179,3 @@ void Game::run()
 		this->render();
 	}
 }
-

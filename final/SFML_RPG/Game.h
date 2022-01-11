@@ -1,5 +1,6 @@
 #ifndef GAME_H
 #define GAME_H
+//antonina mijatovic worked on this file
 
 #include "MainMenuState.h"
 #include "TextState.h"
@@ -36,10 +37,6 @@ public:
 	//Constructors/Destructors
 	Game();
 	virtual ~Game();
-
-	//Functions
-	/*void endDeath(TileMap tileMap);
-	void endFlag(TileMap tileMap);*/
 
 	//Regular
 	void endApplication();

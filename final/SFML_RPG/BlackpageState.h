@@ -1,4 +1,6 @@
 //Rojin Radmehr
+//antonina mijatovic worked on this file
+
 #pragma once
 
 #include "State.h"
@@ -40,6 +42,4 @@ public:
 	void renderButtons(sf::RenderTarget& target);
 	void render(sf::RenderTarget* target = NULL);
 };
-
-
 
