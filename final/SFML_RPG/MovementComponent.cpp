@@ -26,6 +26,7 @@ const sf::Vector2f & MovementComponent::getVelocity() const
 }
 
 //Functions
+//Antoine Majoie worked on this function
 sf::SoundBuffer buffer410;
 sf::Sound song140;
 
