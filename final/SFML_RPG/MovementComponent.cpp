@@ -26,6 +26,9 @@ const sf::Vector2f & MovementComponent::getVelocity() const
 }
 
 //Functions
+sf::SoundBuffer buffer410;
+sf::Sound song140;
+
 const bool MovementComponent::getState(const short unsigned state) const
 {
 	switch (state)
@@ -61,6 +64,11 @@ const bool MovementComponent::getState(const short unsigned state) const
 	case MOVING_UP:
 
 		if (this->velocity.y < 0.f)
+		buffer410.loadFromFile("Images_and_Audio/Audio/player_jump.ogg");
+		song140.setBuffer(buffer410);
+		song140.setLoop(false);
+		song140.play();
+		song140.setVolume(200.f);
 			return true;
 
 		break;
@@ -105,6 +113,7 @@ void MovementComponent::move(const float dir_x, const float dir_y, const float& 
 	this->velocity.x = 95;
 	this->velocity.y += this->acceleration * dir_y * dt;
 }
+
 
 void MovementComponent::update(const float & dt)
 {

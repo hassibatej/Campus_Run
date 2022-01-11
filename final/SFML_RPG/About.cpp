@@ -15,12 +15,21 @@ void About::initFonts()
 	}
 }
 
+//Antoine Majoie worked on this file
+sf::SoundBuffer buffer41;
+sf::Sound song14;
+
 void About::initKeybinds()
 {
 	std::ifstream ifs("Config/mainmenustate_keybinds.ini");
 
 	if (ifs.is_open())
 	{
+		buffer41.loadFromFile("Images_and_Audio/Audio/pacardsong.wav");
+		song14.setBuffer(buffer41);
+		song14.setLoop(true);
+		song14.play();
+		song14.setVolume(100.f);
 		std::string key = "";
 		std::string key2 = "";
 
@@ -144,6 +153,7 @@ void About::updateButtons()
 	//Quit the game
 	if (this->buttons["EXIT_STATE"]->isPressed())
 	{
+		song14.pause();
 		this->endState();
 	}
 }
